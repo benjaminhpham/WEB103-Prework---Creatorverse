@@ -40,7 +40,7 @@ Here's a walkthrough of implemented required features:
 
 ## Notes
 
-Encoutered difficulty making GIF video and embedding GIF file into Github.
+Encoutered difficulty creating a GIF video and embedding the GIF file into Github. Setting up and implement a `.env` file in a React Vite app is quite different from doing so in traditional create-react-app.
 
 ## License
 
