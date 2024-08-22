@@ -1,0 +1,85 @@
+.creator {
+  padding: 5rem 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+}
+
+.creator__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.creator__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.creator__content-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #5185b4;
+}
+
+.creator__content-description {
+  font-size: 1.2rem;
+}
+
+.creator__content-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-socials__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.content-socials__item:hover {
+  padding-left: 1rem;
+  border-color: #fff;
+  background-color: #5185b4;
+}
+
+.creator__actions {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.creator__actions .btn {
+  width: 15rem;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.creator__actions .btn:hover {
+  border-color: #fff;
+}
+
+.creator__actions .edit-btn {
+  background-color: #5185b4;
+}
+
+.creator__actions .delete-btn {
+  background-color: #ff605c;
+}

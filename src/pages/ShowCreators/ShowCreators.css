@@ -1,0 +1,18 @@
+.creators {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 5rem 2rem;
+}
+
+.creators-item {
+  width: 40%;
+}
+
+.no-creators {
+  font-size: 1.5rem;
+  color: #5185b4;
+  padding-top: 5rem;
+}

@@ -1,0 +1,44 @@
+.header {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-image: url("https://creatorverse-production.up.railway.app/static/media/banner.de5659898d3bfc5eb8ea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header__title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__nav-item {
+  background-color: #5185b4;
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.header__nav-item:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.header__nav-item a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
